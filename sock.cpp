@@ -11,10 +11,10 @@
  * ***********************************************************************************/
 
 /* FILE INCLUSIONS ****************************************************************/
-#include sock.h
+#include "sock.h"
 #include <sys/socket.h>
 
-void main()
+int main()
 {
-    
+  printf("Hello World\n");
 }
