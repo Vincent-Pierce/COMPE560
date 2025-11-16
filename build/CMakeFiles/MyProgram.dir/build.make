@@ -69,28 +69,28 @@ include CMakeFiles/MyProgram.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MyProgram.dir/flags.make
 
-CMakeFiles/MyProgram.dir/sock.cpp.o: CMakeFiles/MyProgram.dir/flags.make
-CMakeFiles/MyProgram.dir/sock.cpp.o: /home/vincent/SDSU/COMPE560/sock.cpp
-CMakeFiles/MyProgram.dir/sock.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vincent/SDSU/COMPE560/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyProgram.dir/sock.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/sock.cpp.o -MF CMakeFiles/MyProgram.dir/sock.cpp.o.d -o CMakeFiles/MyProgram.dir/sock.cpp.o -c /home/vincent/SDSU/COMPE560/sock.cpp
+CMakeFiles/MyProgram.dir/client1.cpp.o: CMakeFiles/MyProgram.dir/flags.make
+CMakeFiles/MyProgram.dir/client1.cpp.o: /home/vincent/SDSU/COMPE560/client1.cpp
+CMakeFiles/MyProgram.dir/client1.cpp.o: CMakeFiles/MyProgram.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vincent/SDSU/COMPE560/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyProgram.dir/client1.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyProgram.dir/client1.cpp.o -MF CMakeFiles/MyProgram.dir/client1.cpp.o.d -o CMakeFiles/MyProgram.dir/client1.cpp.o -c /home/vincent/SDSU/COMPE560/client1.cpp
 
-CMakeFiles/MyProgram.dir/sock.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/sock.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vincent/SDSU/COMPE560/sock.cpp > CMakeFiles/MyProgram.dir/sock.cpp.i
+CMakeFiles/MyProgram.dir/client1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyProgram.dir/client1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vincent/SDSU/COMPE560/client1.cpp > CMakeFiles/MyProgram.dir/client1.cpp.i
 
-CMakeFiles/MyProgram.dir/sock.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/sock.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vincent/SDSU/COMPE560/sock.cpp -o CMakeFiles/MyProgram.dir/sock.cpp.s
+CMakeFiles/MyProgram.dir/client1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyProgram.dir/client1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vincent/SDSU/COMPE560/client1.cpp -o CMakeFiles/MyProgram.dir/client1.cpp.s
 
 # Object files for target MyProgram
 MyProgram_OBJECTS = \
-"CMakeFiles/MyProgram.dir/sock.cpp.o"
+"CMakeFiles/MyProgram.dir/client1.cpp.o"
 
 # External object files for target MyProgram
 MyProgram_EXTERNAL_OBJECTS =
 
-MyProgram: CMakeFiles/MyProgram.dir/sock.cpp.o
+MyProgram: CMakeFiles/MyProgram.dir/client1.cpp.o
 MyProgram: CMakeFiles/MyProgram.dir/build.make
 MyProgram: CMakeFiles/MyProgram.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vincent/SDSU/COMPE560/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MyProgram"

@@ -129,29 +129,29 @@ MyProgram/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/build
 .PHONY : MyProgram/fast
 
-sock.o: sock.cpp.o
-.PHONY : sock.o
+client1.o: client1.cpp.o
+.PHONY : client1.o
 
 # target to build an object file
-sock.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/sock.cpp.o
-.PHONY : sock.cpp.o
+client1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/client1.cpp.o
+.PHONY : client1.cpp.o
 
-sock.i: sock.cpp.i
-.PHONY : sock.i
+client1.i: client1.cpp.i
+.PHONY : client1.i
 
 # target to preprocess a source file
-sock.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/sock.cpp.i
-.PHONY : sock.cpp.i
+client1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/client1.cpp.i
+.PHONY : client1.cpp.i
 
-sock.s: sock.cpp.s
-.PHONY : sock.s
+client1.s: client1.cpp.s
+.PHONY : client1.s
 
 # target to generate assembly for a file
-sock.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/sock.cpp.s
-.PHONY : sock.cpp.s
+client1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyProgram.dir/build.make CMakeFiles/MyProgram.dir/client1.cpp.s
+.PHONY : client1.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MyProgram"
-	@echo "... sock.o"
-	@echo "... sock.i"
-	@echo "... sock.s"
+	@echo "... client1.o"
+	@echo "... client1.i"
+	@echo "... client1.s"
 .PHONY : help
 
 

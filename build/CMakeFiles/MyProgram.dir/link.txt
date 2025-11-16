@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/MyProgram.dir/sock.cpp.o -o MyProgram 
+/usr/bin/c++ CMakeFiles/MyProgram.dir/client1.cpp.o -o MyProgram 

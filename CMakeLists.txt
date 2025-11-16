@@ -2,4 +2,4 @@ cmake_minimum_required(VERSION 3.10)
 
 project(MyProject)
 
-add_executable(MyProgram sock.cpp)
+add_executable(MyProgram client1.cpp)

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MyProgram.dir/sock.cpp.o"
-  "CMakeFiles/MyProgram.dir/sock.cpp.o.d"
+  "CMakeFiles/MyProgram.dir/client1.cpp.o"
+  "CMakeFiles/MyProgram.dir/client1.cpp.o.d"
   "MyProgram"
   "MyProgram.pdb"
 )
