@@ -17,4 +17,21 @@
 int main()
 {
   printf("Hello World!\n");
+
+  int client1 = socket(PF_INET, SOCK_STREAM,0); // TCP protocol
+  if(client1 == -1)
+  {
+    perror("opening socket error\n");
+  }
+
+  // struct hostent* gethostbyname(char* name); // translating server name to address
+
+  // struct servent* getservbyname(char* name, char* proto); // translating server name to address, protocol will be TCP
+
+  // int error = connect(client1, sockaddr*, socketlen_t); // read unix programming manual about sockaddr_in
+
+  // write() // just write the struct
+  
+  // read()
+  close(client1);
 }
