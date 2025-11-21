@@ -5,6 +5,7 @@ CMakeFiles/MyProgram.dir/client1.cpp.o
  /home/vincent/SDSU/COMPE560/client1.cpp
  /home/vincent/SDSU/COMPE560/client1.h
  /usr/include/alloca.h
+ /usr/include/arpa/inet.h
  /usr/include/asm-generic/bitsperlong.h
  /usr/include/asm-generic/posix_types.h
  /usr/include/asm-generic/socket.h
@@ -27,12 +28,14 @@ CMakeFiles/MyProgram.dir/client1.cpp.o
  /usr/include/c++/13/bits/stl_pair.h
  /usr/include/c++/13/bits/utility.h
  /usr/include/c++/13/cmath
+ /usr/include/c++/13/cstdlib
  /usr/include/c++/13/debug/assertions.h
  /usr/include/c++/13/debug/debug.h
  /usr/include/c++/13/ext/numeric_traits.h
  /usr/include/c++/13/ext/type_traits.h
  /usr/include/c++/13/limits
  /usr/include/c++/13/pstl/pstl_config.h
+ /usr/include/c++/13/stdlib.h
  /usr/include/c++/13/tr1/bessel_function.tcc
  /usr/include/c++/13/tr1/beta_function.tcc
  /usr/include/c++/13/tr1/ell_integral.tcc
@@ -57,6 +60,8 @@ CMakeFiles/MyProgram.dir/client1.cpp.o
  /usr/include/stdc-predef.h
  /usr/include/stdio.h
  /usr/include/stdlib.h
+ /usr/include/string.h
+ /usr/include/strings.h
  /usr/include/unistd.h
  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h
  /usr/include/x86_64-linux-gnu/asm/posix_types.h
